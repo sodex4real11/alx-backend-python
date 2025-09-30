@@ -14,6 +14,5 @@ conversations_router.register(r'messages', MessageViewSet, basename='conversatio
 
 # The API URLs are now nested.
 urlpatterns = [
-    path('', include(router.urls)),
-    path('', include(conversations_router.urls)),
+    path('messages/', views.messages_list, name='messages-list'),  # example route
 ]
