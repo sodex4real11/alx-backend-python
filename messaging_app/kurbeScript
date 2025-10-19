@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # kurbeScript: Script to start and verify a Kubernetes cluster using Minikube
 
 echo "=== Checking for Minikube installation ==="
